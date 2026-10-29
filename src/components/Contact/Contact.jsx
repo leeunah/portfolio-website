@@ -75,7 +75,7 @@ const Contact = () => {
                             whileInView='visible'>
                             <motion.div className="info" variants={childVariants}>
                                 <p>Name</p>
-                                <p>Leah K.</p>
+                                <p>Leah Kim</p>
                             </motion.div>
                             <motion.div className="info" variants={childVariants}>
                                 <p>Email</p>
@@ -87,7 +87,7 @@ const Contact = () => {
                             </motion.div>
                             <motion.div className="info" variants={childVariants}>
                                 <p>
-                                    <a href="https://github.com/ge1118" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://github.com/leeunah" target="_blank" rel="noopener noreferrer">
                                         GitHub
                                     </a>
                                 </p>

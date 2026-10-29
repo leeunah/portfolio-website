@@ -1,43 +1,33 @@
-import github from '../images/github.png'
-import azure from '../images/azure.png'
-import vs from '../images/vs.png'
-import vscode from '../images/vscode.png'
-import heroku from '../images/heroku.png'
-import aws from '../images/aws.png'
-import paypal from '../images/paypal.png'
-import agile from '../images/agile.png'
+import testinglibrary from '../images/testinglibrary.svg'
+import msw from '../images/msw.svg'
+import postman from '../images/postman.svg'
+import git from '../images/git.svg'
+import aws from '../images/aws.svg'
+import docker from '../images/docker.svg'
 
 export const toolsData = [
     {
-        logo: github,
-        skill: "GitHub"
+        logo: testinglibrary,
+        skill: "Testing Library"
     },
     {
-        logo: azure,
-        skill: "Azure"
+        logo: msw,
+        skill: "MSW"
     },
     {
-        logo: vs,
-        skill: "Visual Studio"
+        logo: postman,
+        skill: "Postman"
     },
     {
-        logo: vscode,
-        skill: "VS Code"
-    },
-    {
-        logo: heroku,
-        skill: "Heroku"
+        logo: git,
+        skill: "Git"
     },
     {
         logo: aws,
         skill: "AWS"
     },
     {
-        logo: paypal,
-        skill: "PayPal"
-    },
-    {
-        logo: agile,
-        skill: "Scrum/Agile"
+        logo: docker,
+        skill: "Docker"
     },
 ]

@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import './Navbar.scss'
 import { Link as ScrollLink } from 'react-scroll'
 import { Link as RouterLink } from 'react-router-dom'
-import Logo from '../../images/logo.png'
 import { motion } from 'framer-motion'
 
 
@@ -21,7 +20,7 @@ const Navbar = ({ navType }) => {
         window.addEventListener('resize', checkIfMobile)
 
         return () => window.removeEventListener('resize', checkIfMobile);
-    }, [])
+    }, [type])
 
 
     const menuVariants = {
@@ -51,10 +50,10 @@ const Navbar = ({ navType }) => {
                 {
                     type === 'GoToHome' ?
                         <RouterLink to='/'>
-                            <img src={Logo} alt="Logo" />
+                            <span className="logo-mark">L</span>
                         </RouterLink> :
                         <ScrollLink to='home' smooth={true}>
-                            <img src={Logo} alt="Logo" />
+                            <span className="logo-mark">L</span>
                         </ScrollLink>
                 }
             </div>

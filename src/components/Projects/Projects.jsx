@@ -33,8 +33,7 @@ const Projects = () => {
                             <div className="back">
                                 <p className='project-description'>{data.description}</p>
                                 <div className="external-links">
-                                    <a href={data.github} target="_blank">Source Code</a>
-                                    <a href={data.source} target="_blank">Demo</a>
+                                    <a href={data.github} target="_blank" rel="noreferrer">Source Code</a>
                                 </div>
                             </div>
                         </div>

@@ -1,37 +1,34 @@
 export const experiencesData = [
     {
-        title: 'TO (OPS)',
-        position: 'System Support Officer (Co-op)',
-        company: 'Tribunals Ontario',
-        duration: 'May 2023 - Aug 2023',
+        title: 'Leap Tools',
+        position: 'Full-stack Software Developer',
+        company: 'Leap Tools (Remote)',
+        duration: 'May 2024 - Present',
         roles: [
-            "Managed IT assets and provided support at Tribunals Ontario.",
-            "Handled IT system troubleshooting and maintenance.",
-            "Contributed to daily stand-up meetings and ticket management."
+            "Delivered 110+ tasks building React/TypeScript interfaces and Python/Django REST APIs for store staff, vendors, and manufacturers.",
+            "Built asynchronous CSV/XLSX lead imports with Celery, including row-level validation, duplicate detection, and failed-row re-upload.",
+            "Built lead editing across three services with DRF object permissions, plus a time-zone-aware daily task-reminder email job.",
+            "Wrote frontend and backend tests with React Testing Library, MSW, and Python, and planned 70+ stories with the team."
         ]
     },
     {
         title: 'MTO (OPS)',
-        position: 'Jr. Technical Analyst (Co-op)',
+        position: 'Full-stack Developer (Co-op)',
         company: 'Ministry of Transportation Ontario',
         duration: 'Sep 2022 - Dec 2022',
         roles: [
-            "Developed and tested software using Angular, ASP.NET C#, and MySQL.",
-            "Created unit tests to verify functionality and modified existing tests to increase test success rate.",
-            "Participated in project meetings and collaborated in team-based problem-solving in agile environment.",
-            "Worked on user stories and bug resolution with a focus on development."
+            "Developed Angular interfaces and ASP.NET (C#) backend services, implementing user stories and resolving application issues.",
+            "Implemented accessible web features in compliance with AODA and WCAG standards."
         ]
     },
     {
         title: 'Alpha Labs',
-        position: 'Software Developer (Co-op)',
+        position: 'Full-stack Developer (Co-op)',
         company: 'Alpha Labs',
         duration: 'May 2022 - Aug 2022',
         roles: [
-            "Developed web pages using ASP.NET, JavaScript, HTML, CSS, jQuery, and Bootstrap.",
-            "Implemented MVC pattern with C# and MySQL for backend processes.",
-            "Conducted both automated and manual testing by using Selenium, JUnit, and NUnit, improving software quality.",
-            "Problem solved with mentorship and feedback from senior developers within a collaborative setting.",
+            "Built full-stack web applications using ASP.NET (C#) and MySQL, with responsive interfaces in JavaScript and Bootstrap.",
+            "Developed 60+ automated Selenium tests to verify functionality and support regression testing."
         ]
     }
 ];

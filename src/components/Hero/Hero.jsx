@@ -13,15 +13,16 @@ const Hero = () => {
     useEffect(() => {
         if (sphereMounted.current === false) {
             const tags = [
-                'HTML', 'CSS', 'JavaScript',
-                'Node.js', 'React', 'Redux',
-                'Git', 'Express.js', 'Python',
-                'MongoDB', 'MySQL', 'C#',
-                'Azure', 'GitHub', 'Rest API',
-                'Machine Learning', 'TensorFlow', 'AWS',
+                'React', 'Next.js', 'TypeScript',
+                'JavaScript', 'Redux', 'RTK Query',
+                'HTML', 'CSS', 'Python',
+                'Django', 'DRF', 'Celery',
+                'REST APIs', 'PostgreSQL', 'Testing Library',
+                'MSW', 'Postman', 'Git',
+                'AWS', 'Docker',
             ];
 
-            const tagCloud = TagCloud('.sphere', tags, {
+            TagCloud('.sphere', tags, {
                 radius: 330,
                 maxSpeed: 'fast',
                 initSpeed: 'fast',

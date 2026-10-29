@@ -1,41 +1,25 @@
-import nodejs from '../images/nodejs.png'
-// import expressjs from '../images/expressjs.png'
 import python from '../images/python.png'
-import tensorflow from '../images/tensorflow.png'
-import csharp from '../images/csharp.png'
-import mysql from '../images/mysql.png'
-import postgresql from '../images/postgresql.png'
 import django from '../images/django.png'
-import aspnet from '../images/aspnet.png'
+import celery from '../images/celery.svg'
+import restApi from '../images/rest-api.svg'
+import postgresql from '../images/postgresql.png'
 
 export const backendData = [
-    {
-        logo: django,
-        skill: "Django (DRF)"
-    },
     {
         logo: python,
         skill: "Python"
     },
     {
-        logo: aspnet,
-        skill: "ASP.NET"
+        logo: django,
+        skill: "Django (DRF)"
     },
     {
-        logo: csharp,
-        skill: "C#"
+        logo: celery,
+        skill: "Celery"
     },
     {
-        logo: nodejs,
-        skill: "Node.js"
-    },
-    {
-        logo: tensorflow,
-        skill: "TensorFlow"
-    },
-    {
-        logo: mysql,
-        skill: "MySQL"
+        logo: restApi,
+        skill: "REST APIs"
     },
     {
         logo: postgresql,

@@ -1,31 +1,11 @@
 import React, { useState } from 'react'
 import './Skills.scss'
-import html from '../../images/html.png'
 import { frontendData } from '../../data/frontend'
 import { backendData } from '../../data/backend'
 import { toolsData } from '../../data/tools'
 import { motion } from 'framer-motion'
 
 const Skills = () => {
-
-    const parentVariants = {
-        initial: { opacity: 0 },
-        animate: {
-            opacity: 1,
-            transition: {
-                delayChildren: 0.3,
-                staggerChildren: 0.3,
-            }
-        }
-    }
-
-    const childVariants = {
-        initial: { opacity: 0 },
-        animate: {
-            opacity: 1,
-            delay: 0.4,
-        }
-    }
 
     const [isChecked, setIsChecked] = useState('c1');
 
@@ -36,7 +16,7 @@ const Skills = () => {
     const dataWithLabels = [
         { label: "frontend", data: frontendData },
         { label: "backend", data: backendData },
-        { label: "tools", data: toolsData }
+        { label: "testing & tools", data: toolsData }
     ];
 
     return (

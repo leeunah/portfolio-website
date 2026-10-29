@@ -1,4 +1,6 @@
 .navbar {
+    max-width: 1800px;
+    margin: 0 auto;
     padding: 1.5rem 5rem;
     display: flex;
     justify-content: space-between;
@@ -6,8 +8,18 @@
     height: 100px;
 
     .logo {
-        img {
-            width: 7rem;
+        a {
+            text-decoration: none;
+        }
+
+        .logo-mark {
+            font-family: 'Abhaya Libre', serif;
+            font-size: 4rem;
+            line-height: 1;
+            font-weight: 800;
+            color: #414141;
+            letter-spacing: 0.5px;
+            white-space: nowrap;
             cursor: pointer;
         }
     }
@@ -53,10 +65,10 @@
         padding: 0;
 
         .logo {
-            img {
-                width: 6rem;
-                padding: 20px 0 10px 16px;
-                margin-left: 20px;
+            .logo-mark {
+                display: inline-block;
+                font-size: 3.4rem;
+                padding: 20px 0 10px 36px;
             }
         }
 
@@ -98,10 +110,9 @@
 @media screen and (max-width: 500px) {
     .navbar {
         .logo {
-            img {
-                width: 4rem;
-                padding: 14px 0 10px 16px;
-                margin: 0;
+            .logo-mark {
+                font-size: 2.8rem;
+                padding: 14px 0 10px 20px;
             }
         }
 

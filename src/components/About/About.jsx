@@ -6,7 +6,7 @@ import { motion } from 'framer-motion'
 
 const About = () => {
 
-    const [expContent, setExpContent] = useState(1);
+    const [expContent, setExpContent] = useState(0);
 
     const parentVariants = {
         initial: { opacity: 0 },
@@ -50,7 +50,8 @@ const About = () => {
                 variants={parentVariants}
                 initial='initial'
                 whileInView='animate'
-                viewport={{ amount: 0.5 }}>
+                viewport={{ once: true, amount: 0.15 }}>
+                <div className="exp-inner">
                 <div className="exp-header">
                     <motion.h1 variants={childVariants} >Experiences</motion.h1>
                     <hr />
@@ -66,24 +67,33 @@ const About = () => {
                     ))}
                 </motion.div>
 
-                <motion.div variants={childVariants} className="exp-details" key={expContent}>
-                    <div className="position">
-                        {experiencesData[expContent].position}
-                    </div>
-                    <div className="company">
-                        {experiencesData[expContent].company}
-                    </div>
-                    <div className="duration">
-                        {experiencesData[expContent].duration}
-                    </div>
-                    <div className="roles">
-                        <ul>
-                            {experiencesData[expContent].roles.map((role, i) => (
-                                <li key={i}>{role}</li>
-                            ))}
-                        </ul>
-                    </div>
+                <motion.div variants={childVariants} className="exp-details-stack">
+                    {experiencesData.map((experience, i) => (
+                        <div
+                            key={i}
+                            className={i === expContent ? 'exp-details active' : 'exp-details'}
+                            aria-hidden={i !== expContent}
+                        >
+                            <div className="position">
+                                {experience.position}
+                            </div>
+                            <div className="company">
+                                {experience.company}
+                            </div>
+                            <div className="duration">
+                                {experience.duration}
+                            </div>
+                            <div className="roles">
+                                <ul>
+                                    {experience.roles.map((role, j) => (
+                                        <li key={j}>{role}</li>
+                                    ))}
+                                </ul>
+                            </div>
+                        </div>
+                    ))}
                 </motion.div>
+                </div>
             </motion.div>
         </div>
     )

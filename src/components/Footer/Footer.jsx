@@ -7,7 +7,7 @@ const Footer = () => {
     return (
         <div className="footer">
             <div className="copyright">
-                <p>© 2024 Leah All rights reserved</p>
+                <p>© {new Date().getFullYear()} Leah All rights reserved</p>
             </div>
 
             <motion.div

@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     max-width: 1400px;
+    min-height: calc(100vh - 100px);
     margin: 0 auto;
 
     .hero-left {
@@ -158,6 +159,7 @@
     .hero {
         margin: 0;
         height: auto !important;
+        min-height: auto;
         flex-direction: column;
         margin: 4rem 0;
 

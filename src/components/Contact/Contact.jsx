@@ -94,7 +94,7 @@ const Contact = () => {
                             </motion.div>
                             <motion.div className="info" variants={childVariants}>
                                 <p>
-                                    <a href="https://www.linkedin.com/in/gaeun-kim-660990205/" target="_blank" rel="noopener noreferrer">
+                                    <a href="https://www.linkedin.com/in/leahkim-dev/" target="_blank" rel="noopener noreferrer">
                                         LinkedIn
                                     </a>
                                 </p>

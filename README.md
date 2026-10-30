@@ -22,7 +22,7 @@ Crafted with React.js, SCSS, HTML, and JavaScript, this Portfolio Site is a culm
 ### Setup
 To set up the portfolio:
 ```
-git clone https://github.com/ge1118/portfolio-website.git
+git clone https://github.com/leeunah/portfolio-website.git
 npm install
 npm start
 ```
@@ -37,5 +37,5 @@ For questions or feedback, reach out at [leah.kim0118@gmail.com](mailto:leah.kim
 
 ## License
 This project is under a private license.
-[View the project on GitHub](https://github.com/ge1118/portfolio-website)
+[View the project on GitHub](https://github.com/leeunah/portfolio-website)
 
